@@ -16,7 +16,7 @@ const [color setColor] = useState("redColor");
 
   return (
     <div id="main">
-      <p className={'redColor'} >Newton School</p>
+      <p className={color} >Newton School</p>
       <button id='button' onClick={handleStyle}>Change Style</button>
     </div>
   )
