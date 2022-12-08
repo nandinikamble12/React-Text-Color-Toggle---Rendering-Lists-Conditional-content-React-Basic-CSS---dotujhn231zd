@@ -17,10 +17,10 @@ const HandleStyle = () => {
 }
 
   return(
-    <div id="main">
+    <>
     <p className={color} >Newton School</p>
     <button id='button' onClick={HandleStyle} >Change Style</button>
-  </div>
+  </>
   )
 }
 
